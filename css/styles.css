@@ -837,11 +837,9 @@ footer > div {
   visibility: hidden;
   pointer-events: none;
 }
-/*
 .is-hidden .modal-box {
   transform: scale(0);
 }
-*/
 .btn-modal-close {
   position: absolute;
   width: 30px;
