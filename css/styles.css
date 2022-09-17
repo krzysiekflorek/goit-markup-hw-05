@@ -79,10 +79,14 @@ a:hover {
 .header-list-item-link:hover,
 .header-list-item-link:focus {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .top-section-list:hover,
 .top-section-list:focus {
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-icon {
   fill: #757575;
@@ -125,6 +129,8 @@ a:hover {
 .contact-link-style:hover .contacts-icon,
 .contact-link-style:focus .contacts-icon {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* top-section */
@@ -190,6 +196,8 @@ a:hover {
   box-shadow: 0px 3px 1px #2196f31a, 0px 1px 2px #2196f314,
     0px 2px 2px #2196f31f;
   color: #212121;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .lorem-list {
   display: flex;
@@ -393,11 +401,15 @@ a:hover {
 .studio-section a:focus {
   border-color: #2196f3;
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .studio-section a:hover .studio-icon,
 .studio-section a:focus .studio-icon {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .top-section-list {
   list-style: none;
@@ -471,10 +483,14 @@ a:hover {
   background-color: #2196f3;
   box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014,
     0px 2px 2px #0000001f;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-box-cursor:hover,
 .project-box-cursor:focus {
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-border {
   border-left: 1px solid #eeeeee;
@@ -553,10 +569,14 @@ footer > div {
 .footer-address-mail:hover,
 .footer-address-mail:focus {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-address-tel:hover,
 .footer-address-tel:focus {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address {
   font-style: normal;
@@ -638,6 +658,8 @@ footer > div {
   fill: #2196f3;
   border: 1px solid #2196f3;
   border-radius: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-flex-wrap {
   display: flex;
@@ -675,6 +697,8 @@ footer > div {
   background-color: #2196f3;
   fill: #ffffff;
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-social-footer > :nth-child(n) {
   fill: #ffffff;
@@ -713,6 +737,8 @@ footer > div {
 .social-links a:focus {
   fill: #fff;
   background-color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-title {
   margin-bottom: 20px;
@@ -753,6 +779,8 @@ footer > div {
 .footer-social-links li:hover,
 .footer-social-links li:focus {
   background-color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .f-position {
   position: relative;
