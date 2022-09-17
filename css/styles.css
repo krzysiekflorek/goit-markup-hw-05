@@ -809,7 +809,7 @@ footer > div {
   left: 4px;
 }
 
-/* modal window 
+/* modal window */
 
 .backdrop {
   position: fixed;
@@ -838,9 +838,11 @@ footer > div {
   visibility: hidden;
   pointer-events: none;
 }
+/*
 .is-hidden .modal-box {
   transform: scale(0);
 }
+*/
 .btn-modal-close {
   position: absolute;
   width: 30px;
@@ -856,4 +858,3 @@ footer > div {
   top: 8px;
   right: 8px;
 }
-*/
