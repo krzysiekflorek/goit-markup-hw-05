@@ -18,8 +18,12 @@ a:hover {
 .blue-text:hover,
 .blue-text:focus {
   color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
 }
+
 .blue-text {
   color: #2196f3;
 }
@@ -79,12 +83,14 @@ a:hover {
 .header-list-item-link:hover,
 .header-list-item-link:focus {
   color: #2196f3;
-  transition: 250ms color cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .top-section-list:hover,
 .top-section-list:focus {
   cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .current-link::after {
   content: " ";
@@ -139,7 +145,8 @@ a:hover {
 .contact-link-style:hover .contacts-icon,
 .contact-link-style:focus .contacts-icon {
   fill: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* top-section */
@@ -205,7 +212,8 @@ a:hover {
   box-shadow: 0px 3px 1px #2196f31a, 0px 1px 2px #2196f314,
     0px 2px 2px #2196f31f;
   color: #212121;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .lorem-list {
   display: flex;
@@ -409,13 +417,15 @@ a:hover {
 .studio-section a:focus {
   border-color: #2196f3;
   cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms; 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .studio-section a:hover .studio-icon,
 .studio-section a:focus .studio-icon {
   fill: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .top-section-list {
   list-style: none;
@@ -489,12 +499,14 @@ a:hover {
   background-color: #2196f3;
   box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014,
     0px 2px 2px #0000001f;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-box-cursor:hover,
 .project-box-cursor:focus {
   cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-border {
   border-left: 1px solid #eeeeee;
@@ -573,12 +585,14 @@ footer > div {
 .footer-address-mail:hover,
 .footer-address-mail:focus {
   color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-address-tel:hover,
 .footer-address-tel:focus {
   color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address {
   font-style: normal;
@@ -596,7 +610,8 @@ footer > div {
 .address-link-color:hover,
 .address-link-color:focus {
   color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* all */
@@ -648,12 +663,14 @@ footer > div {
   height: 92px;
   fill: #afb1b8;
   transition-property: fill;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-box:hover,
 .client-box:focus {
   border-color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons-client-box > :nth-child(n) :hover,
@@ -661,7 +678,8 @@ footer > div {
   fill: #2196f3;
   border: 1px solid #2196f3;
   border-radius: 4px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-flex-wrap {
   display: flex;
@@ -699,7 +717,8 @@ footer > div {
   background-color: #2196f3;
   fill: #ffffff;
   cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-social-footer > :nth-child(n) {
   fill: #ffffff;
@@ -716,7 +735,8 @@ footer > div {
 .social-links-item:hover,
 .social-links-item:focus {
   background-color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social {
   margin-bottom: 20px;
@@ -739,7 +759,8 @@ footer > div {
 .social-links a:focus {
   fill: #fff;
   background-color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-title {
   margin-bottom: 20px;
@@ -780,7 +801,8 @@ footer > div {
 .footer-social-links li:hover,
 .footer-social-links li:focus {
   background-color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+   background-color; cubic-bezier(0.4, 0, 0.2, 1);
 }
 .f-position {
   position: relative;
