@@ -612,6 +612,7 @@ footer > div {
 /* all */
 
 .img-label {
+  display: block;
   font-size: 14px;
   left: 0;
   margin: 0;
