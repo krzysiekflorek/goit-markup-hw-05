@@ -91,13 +91,14 @@ a:hover {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .current-link::after {
-  position: relative;
   content: "";
   display: block;
   width: 100%;
   height: 4px;
   background-color: #2196f3;
+  transform: translateY(28px);
   border-radius: 2px;
+  pointer-events: none;
 }
 .contacts-icon {
   fill: #757575;
