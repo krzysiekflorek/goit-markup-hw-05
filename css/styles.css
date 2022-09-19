@@ -620,7 +620,8 @@ footer > div {
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 27px 0px;
+  padding-top: 27px;
+  padding-bottom: 27px;
   color: #fff;
   letter-spacing: 0.03em;
   background-color: rgba(47, 48 58, 0.8);
