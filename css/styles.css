@@ -630,6 +630,9 @@ footer > div {
   width: 370px;
   height: 70px;
 }
+.text-label {
+  position: relative;
+}
 .container {
   width: 1200px;
   padding-left: 15px;
