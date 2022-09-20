@@ -107,7 +107,7 @@ a:hover {
   border-bottom-right-radius: 2px;
   height: 4px;
   background-color: #2196f3;
-  margin-top: 34px;
+  margin-top: 44px;
   display: block;
 }
 .current-link-portfolio::after {
@@ -121,7 +121,7 @@ a:hover {
   border-bottom-right-radius: 2px;
   height: 4px;
   background-color: #2196f3;
-  margin-top: 34px;
+  margin-top: 44px;
   display: block;
 }
 .contacts-icon {
