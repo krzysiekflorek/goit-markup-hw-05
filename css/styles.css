@@ -92,13 +92,16 @@ a:hover {
 }
 .current-link::after {
   content: "";
-  display: block;
-  width: 100%;
+  position: absolute;
+  width: 53px;
+  border-bottom: #2196f3;
+  border-top-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
   height: 4px;
   background-color: #2196f3;
-  transform: translateY(28px);
-  border-radius: 2px;
-  pointer-events: none;
+  display: block;
 }
 .contacts-icon {
   fill: #757575;
