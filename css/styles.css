@@ -107,7 +107,7 @@ a:hover {
   border-bottom-right-radius: 2px;
   height: 4px;
   background-color: #2196f3;
-  margin-top: 20;
+  margin-top: 20px;
   display: block;
   bottom: 0;
 }
@@ -514,7 +514,6 @@ a:hover {
   margin: 0;
   width: 370px;
   background-color: #fff;
-  flex-basis: calc(100%-90px) / 4;
   margin: 0;
   border: 1px solid #eeeeee;
   transition: 250ms box-shadow cubic-bezier(0.4, 0, 0.2, 1);
