@@ -542,6 +542,12 @@ a:hover {
 .description-category > p {
   margin: 0;
 }
+.box-img-with-overlay {
+  position: relative;
+  overflow: hidden;
+  width: 370px;
+  height: 294px;
+}
 .portfolio-label {
   position: absolute;
   width: 100%;
