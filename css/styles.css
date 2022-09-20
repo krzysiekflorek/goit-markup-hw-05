@@ -90,6 +90,9 @@ a:hover {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.current-link {
+  position: relative;
+}
 .current-link::after {
   content: "";
   position: absolute;
@@ -102,6 +105,7 @@ a:hover {
   height: 4px;
   background-color: #2196f3;
   display: block;
+  bottom: 0;
 }
 .current-link-portfolio::after {
   content: "";
