@@ -121,7 +121,8 @@ a:hover {
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   height: 4px;
-  padding-top: 10px;
+  background-color: #2196f3;
+  margin-top: 40px;
   display: block;
 }
 .contacts-icon {
