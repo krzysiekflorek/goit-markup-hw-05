@@ -557,7 +557,7 @@ a:hover {
   transform: translate(0, 100%);
   transition: 250ms transform cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: transform, background-color, color;
-  color: rgba(33, 150, 243, 0.9);
+  background-color: rgba(33, 150, 243, 0.9);
 }
 .portfolio-label > p {
   color: #ffffff;
