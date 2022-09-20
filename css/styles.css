@@ -93,6 +93,9 @@ a:hover {
 .current-link {
   position: relative;
 }
+.current-link-portfolio {
+  position: relative;
+}
 .current-link::after {
   content: "";
   position: absolute;
