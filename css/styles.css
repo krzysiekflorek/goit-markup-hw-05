@@ -234,7 +234,6 @@ a:hover {
   color: #212121;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid #2196f3;
 }
 .lorem-list {
   display: flex;
@@ -931,4 +930,9 @@ footer > div {
   justify-content: center;
   top: 8px;
   right: 8px;
+}
+.close-btn:hover,
+.close-btn:focus {
+  transform: scale (1.25);
+  background-color: #f5f4fa;
 }
