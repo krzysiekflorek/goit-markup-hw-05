@@ -526,7 +526,19 @@ a:hover {
 .description-category > p {
   margin: 0;
 }
-
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.container-portfolio {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: block;
+}
+.portfolio {
+  margin: 0 auto;
+}
 .projects-portfolio {
   display: flex;
   flex-wrap: wrap;
