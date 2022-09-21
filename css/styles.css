@@ -102,12 +102,12 @@ a:hover {
   width: 53px;
   border-bottom: #2196f3;
   border-top-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   height: 4px;
   background-color: #2196f3;
-  margin-top: 44px;
+  margin-top: 45px;
   display: block;
 }
 .current-link-portfolio::after {
@@ -116,12 +116,12 @@ a:hover {
   width: 58px;
   border-bottom: #2196f3;
   border-top-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   height: 4px;
   background-color: #2196f3;
-  margin-top: 44px;
+  margin-top: 45px;
   display: block;
 }
 .contacts-icon {
@@ -327,7 +327,7 @@ a:hover {
   color: #ffffff;
   padding-top: 20px;
   width: 370px;
-  height: 40px;
+  height: 70px;
   background: rgba(47, 48, 58, 0.8);
 }
 
