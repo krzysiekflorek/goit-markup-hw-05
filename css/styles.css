@@ -452,6 +452,9 @@ a:hover {
 
 /* section portfolio */
 
+.block {
+  display: block;
+}
 .portfolio-elements {
   display: flex;
   flex-direction: row;
@@ -617,16 +620,6 @@ a:hover {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-}
-
-.block {
-  display: block;
-}
-.description-category {
-  padding: 20px 24px;
-}
-.description-category > p {
-  margin: 0;
 }
 
 .project-box:hover .portfolio-label {
