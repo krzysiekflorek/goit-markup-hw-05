@@ -462,7 +462,8 @@ a:hover {
 .container-portfolio {
   width: 100%;
   max-width: 1200px;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
   flex-direction: row;
 }
@@ -540,7 +541,7 @@ a:hover {
   align-items: flex-start;
 }
 .buttons-portfolio {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: flex-start;
   list-style: none;
