@@ -536,6 +536,11 @@ a:hover {
 .section-portfolio {
   padding: 94px 0;
 }
+.portfolio-projects-describe {
+  display: flex;
+  flex-direction: column;
+  gap: 4;
+}
 .buttons-portfolio {
   font-family: "Roboto";
   background-color: #f5f4fa;
