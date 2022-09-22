@@ -609,6 +609,15 @@ a:hover {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
+.project-title {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 24px 4px;
+}
+.project-type {
+  color: #757575;
+  padding: 0 24px 20px;
+}
 
 .block {
   display: block;
