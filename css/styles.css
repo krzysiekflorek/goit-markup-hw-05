@@ -569,6 +569,15 @@ a:hover {
   font-size: 16px;
   line-height: 1.875;
 }
+.top-section-portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 106px0;
+}
 
 /* projects portfolio */
 
