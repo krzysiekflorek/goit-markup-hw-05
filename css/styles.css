@@ -102,12 +102,12 @@ a:hover {
   width: 53px;
   border-bottom: #2196f3;
   border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   height: 4px;
   background-color: #2196f3;
-  margin-top: 45px;
+  margin-top: 44px;
   display: block;
 }
 .current-link-portfolio::after {
@@ -116,12 +116,12 @@ a:hover {
   width: 58px;
   border-bottom: #2196f3;
   border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   height: 4px;
   background-color: #2196f3;
-  margin-top: 45px;
+  margin-top: 44px;
   display: block;
 }
 .contacts-icon {
@@ -325,8 +325,9 @@ a:hover {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  padding-top: 20px;
   width: 370px;
-  height: 70px;
+  height: 40px;
   background: rgba(47, 48, 58, 0.8);
 }
 
@@ -483,6 +484,14 @@ a:hover {
 
 /* projects portfolio */
 
+.project-name {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  margin: 0;
+}
 .button-style {
   display: flex;
   gap: 8px;
@@ -495,7 +504,20 @@ a:hover {
   flex-wrap: wrap;
   gap: 30px;
 }
-
+.project-text {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.875;
+}
+.project-box {
+  padding: 0;
+  margin: 0;
+  width: 370px;
+  background-color: #fff;
+  margin: 0;
+  border: 1px solid #eeeeee;
+  transition: 250ms box-shadow cubic-bezier(0.4, 0, 0.2, 1);
+}
 .buttons-portfolio:hover,
 .buttons-portfolio:focus {
   color: #fff;
@@ -526,47 +548,6 @@ a:hover {
 .description-category > p {
   margin: 0;
 }
-.section-portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.container-portfolio {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-  display: block;
-}
-.portfolio {
-  margin: 0 auto;
-}
-.projects-portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding-inline-start: 0px;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-  gap: 30px;
-  box-sizing: #ffffff;
-  border-bottom: 1px solid #ffffff;
-  border-color: #ffffff;
-}
-.project-box-portfolio {
-  padding: 0;
-  width: 370px;
-  height: 404px;
-  background-color: #fff;
-  border: 1px solis #eeeeee;
-  transition: 250ms box-shadow cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: transition, box-shadow;
-}
-.project-box-portfolio:hover,
-.project-box-portfolio:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-  cursor: pointer;
-}
-
 .box-img-with-overlay {
   position: relative;
   overflow: hidden;
@@ -578,7 +559,6 @@ a:hover {
   width: 100%;
   height: 100%;
   top: 0%;
-  left: 0%;
   display: flex;
   transform: translate(0, 100%);
   transition: 250ms transform cubic-bezier(0.4, 0, 0.2, 1);
@@ -594,31 +574,7 @@ a:hover {
   padding: 49px 45px 49px 24px;
 }
 .project-box:hover .portfolio-label {
-  display: flex;
-  position: absolute;
-  transform: translateY(0, 0);
-}
-.figcaption {
-  display: block;
-  width: 370px;
-}
-.project-name {
-  display: flex;
-  padding: 20px 24px 4px;
-  color: #212121;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-.project-text {
-  display: flex;
-  padding: 4px 24px 20px;
-  font-weight: 400;
-  color: #757575;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.03em;
+  transform: translateY(0);
 }
 
 /* footer  */
@@ -924,24 +880,9 @@ footer > div {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  fill: #fff;
-  background-color: rgba(255, 255, 255, 0.1);
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-icon:hover,
-.footer-icon:focus {
-  background-color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.f-position {
+  position: relative;
+  left: 4px;
 }
 
 /* modal window */
@@ -994,9 +935,4 @@ footer > div {
   justify-content: center;
   top: 8px;
   right: 8px;
-}
-.close-btn:hover,
-.close-btn:focus {
-  transform: scale (1.25);
-  background-color: #f5f4fa;
 }
