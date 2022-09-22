@@ -474,11 +474,10 @@ a:hover {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hidden-element-container {
-  display: flex;
-  width: 100%;
+  display: block;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: absolute;
   overflow: hidden;
 }
 .hidden-background {
@@ -536,7 +535,7 @@ a:hover {
   padding: 94px 0;
 }
 .portfolio-projects-describe {
-  display: flex;
+  display: block;
   flex-direction: column;
   gap: 4px;
 }
