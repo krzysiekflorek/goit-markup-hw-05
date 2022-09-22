@@ -539,7 +539,7 @@ a:hover {
 .portfolio-projects-describe {
   display: flex;
   flex-direction: column;
-  gap: 4;
+  gap: 4px;
 }
 .buttons-portfolio {
   font-family: "Roboto";
