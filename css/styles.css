@@ -513,7 +513,6 @@ a:hover {
 }
 .portfolio-projects-describe {
   border: #eeeeee;
-  flex-basis: calc((100%-60px) / 3);
 }
 .portfolio-element:hover,
 .portfolio-element:focus {
