@@ -540,7 +540,7 @@ a:hover {
   align-items: flex-start;
 }
 .buttons-portfolio {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: flex-start;
   list-style: none;
