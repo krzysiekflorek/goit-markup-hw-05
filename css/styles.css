@@ -463,7 +463,9 @@ a:hover {
   gap: 30px;
 }
 .portfolio-photo {
-  display: flex;
+  display: block;
+  width: 100%;
+  height: auto;
   justify-content: center;
   align-items: center;
 }
@@ -475,7 +477,8 @@ a:hover {
 }
 .hidden-element-container {
   display: flex;
-  width: 100%;
+  margin: auto;
+  width: 370px;
   justify-content: center;
   align-items: center;
   position: relative;
