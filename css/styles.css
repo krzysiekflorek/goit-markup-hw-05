@@ -527,8 +527,8 @@ a:hover {
 .container-portfolio {
   width: 100%;
   max-width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin: 0 auto;
   flex-direction: row;
 }
