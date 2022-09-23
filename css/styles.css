@@ -534,6 +534,17 @@ a:hover {
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
+
+.project-name {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+  justify-content: left;
+  margin: 0;
+}
 .project-title {
   font-size: 18px;
   font-weight: 700;
@@ -600,14 +611,6 @@ a:hover {
 
 /* projects portfolio */
 
-.project-name {
-  color: #212121;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  margin: 0;
-}
 .button-style {
   display: flex;
   gap: 8px;
