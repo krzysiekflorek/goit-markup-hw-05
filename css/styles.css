@@ -538,9 +538,6 @@ a:hover {
   margin: 0;
   flex-direction: row;
 }
-.section-portfolio {
-  padding: 94px 0;
-}
 .portfolio-projects-describe {
   display: flex;
   flex-direction: column;
