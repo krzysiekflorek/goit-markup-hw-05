@@ -660,6 +660,12 @@ a:hover {
 .project-box:hover .portfolio-label {
   transform: translateY(0);
 }
+.description-category {
+  padding: 20px 24px;
+}
+.description-category > p {
+  margin: 0;
+}
 
 /* footer  */
 
