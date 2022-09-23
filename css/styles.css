@@ -352,6 +352,7 @@ a:hover {
   padding-bottom: 47px;
   padding-top: 47px;
 }
+
 .section-bottom {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -454,6 +455,10 @@ a:hover {
 
 .block {
   display: block;
+}
+.section-portfolio {
+  padding: 94px;
+  margin: 0;
 }
 .portfolio-elements {
   display: flex;
@@ -600,6 +605,8 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  padding: 0;
+  margin: 0;
 }
 .project-text {
   color: #757575;
