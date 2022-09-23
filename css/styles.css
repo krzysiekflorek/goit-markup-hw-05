@@ -564,6 +564,7 @@ a:hover {
   font-size: 16px;
   line-height: 1.875;
   justify-content: left;
+  text-align: left;
 }
 
 .container-portfolio {
