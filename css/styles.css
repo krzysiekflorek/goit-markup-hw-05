@@ -577,10 +577,8 @@ a:hover {
   align-items: center;
   text-align: center;
   gap: 30px;
-  padding-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 94;
+  padding: 0;
+  margin-bottom: 94;
 }
 
 /* projects portfolio */
