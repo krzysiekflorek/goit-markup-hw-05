@@ -11,10 +11,6 @@ body {
 a:hover {
   color: #2196f3;
 }
-* {
-  margin: 0;
-  padding: 0;
-}
 .blue-text:hover,
 .blue-text:focus {
   color: #2196f3;
@@ -459,7 +455,7 @@ a:hover {
 .section-portfolio {
   padding-top: 94px;
   padding-right: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 56px;
   padding-left: 94px;
   margin: 0;
 }
@@ -580,8 +576,11 @@ a:hover {
   align-items: center;
   text-align: center;
   gap: 30px;
-  padding-bottom: 94;
-  margin-bottom: 94;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 94px;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
 /* projects portfolio */
