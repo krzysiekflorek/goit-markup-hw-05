@@ -469,6 +469,10 @@ a:hover {
   padding-left: 94px;
   margin: 0;
 }
+.project-box {
+  padding: 0;
+  margin: 0;
+}
 .portfolio-elements {
   display: flex;
   flex-direction: row;
