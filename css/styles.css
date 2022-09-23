@@ -457,7 +457,10 @@ a:hover {
   display: block;
 }
 .section-portfolio {
-  padding: 94px;
+  padding-top: 94px;
+  padding-right: 94px;
+  padding-bottom: 50px;
+  padding-left: 94px;
   margin: 0;
 }
 .portfolio-elements {
