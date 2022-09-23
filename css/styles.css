@@ -116,12 +116,12 @@ a:hover {
   width: 58px;
   border-bottom: #2196f3;
   border-top-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   height: 4px;
   background-color: #2196f3;
-  margin-top: 44px;
+  margin-top: 45px;
   display: block;
 }
 .contacts-icon {
