@@ -500,7 +500,8 @@ a:hover {
   transition: transform 250ms linear;
 }
 .hidden-text {
-  justify-content: center;
+  justify-content: left;
+  text-align: left;
   align-items: center;
   padding: 49px 45px 49px 24px;
   font-size: 18px;
@@ -528,11 +529,13 @@ a:hover {
   font-weight: 700;
   padding: 20px 24px 4px;
   text-align: left;
+  justify-content: left;
   color: #212121;
 }
 .project-type {
   color: #757575;
   text-align: left;
+  justify-content: left;
   padding: 0 24px 20px;
 }
 
