@@ -487,9 +487,6 @@ a:hover {
 }
 .portfolio-element {
   position: relative;
-  transition-property: box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hidden-element-container {
   display: flex;
@@ -643,7 +640,6 @@ a:hover {
   width: 370px;
   background-color: #fff;
   margin: 0;
-  border: 1px solid #eeeeee;
   transition: 250ms box-shadow cubic-bezier(0.4, 0, 0.2, 1);
 }
 .buttons-portfolio:hover,
